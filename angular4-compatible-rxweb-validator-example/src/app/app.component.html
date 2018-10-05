@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3>RxWeb Decorators for Angular 4</h3>
+      <form [formGroup]="sampleFormGroup">
+      fullName <input type="text" formControlName="fullName" /> 
+      {{sampleFormGroup.controls.fullName.errors | json}}<br />
+      </form>
+    </div>
+  </div>
+</div>
